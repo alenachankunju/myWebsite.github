@@ -56,6 +56,13 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+// typing
+var typed = new Typed(".typing", {
+    strings: [ "Developer", "Designer"],
+    typeSpeed: 100,
+    backSpeed:80,
+    loop: true
+});
 
 
 
