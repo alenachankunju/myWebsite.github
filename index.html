@@ -1,85 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <title>myWebsite</title>
-        <link rel = "icon" href =  "assets/img/logo.png"
-        type = "image/x-icon"> 
-        
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div class="">
-                    <a href="index.html"><img src="assets/img/logooo.png" width="40px" height="40px" alt=""></a>
-                    <!-- <a href="index.html" class="nav__logo"><span class="home__title-color">my</span>Website</a> -->
-                    
-                </div>
+    <title>myWebsite</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="">
+          <a href="index.html"
+            ><img src="assets/img/logooo.png" width="40px" height="40px" alt=""
+          /></a>
+          <!-- <a href="index.html" class="nav__logo"><span class="home__title-color">my</span>Website</a> -->
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
-                        <!-- <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li> -->
-                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+                <a href="#skills" class="nav__link">Skills</a>
+              </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            
+            <!-- <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li> -->
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title"><br> Hi,<br>I'am <span class="home__title-color"><br> Allen K Achankunju</span><br> 
-                        Web <span class="typing"></span></h1>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            <br />
+            Hi,<br />I'am
+            <span class="home__title-color"
+              ><br />
+              Allen K Achankunju</span
+            ><br />
+            Web <span class="typing"></span>
+          </h1>
 
-                    <a href="contact.html" class="button">Contact</a>
-                </div>
+          <a href="#contact" class="button">Contact</a>
+        </div>
 
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
-                    <a href="https://github.com/alenachankunju?tab=repositories" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
+        <div class="home__social">
+          <a href="" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+          <a
+            href="https://github.com/alenachankunju?tab=repositories"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
 
-                <div class="home__img">    
-                    <img src="assets/img/perfil.jpg" alt="">
-                </div>
-            </section>
+        <div class="home__img">
+          <img src="assets/img/perfil.jpg" alt="" />
+        </div>
+      </section>
 
-          
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <!-- <br><br> -->
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title"></p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/alen.achankunju/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/alen_achankunju/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <!-- <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              To become a web developer, need a variety of hard and soft skills
+              to succeed. Here are some of my skills to have in this role:
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
             </div>
-            <p>Created by <i style="color: red">𝒜𝓁𝓁𝑒𝓃 𝓀 𝒜𝒸𝒽𝒶𝓃𝓀𝓊𝓃𝒿𝓊</i> &#169; 2021 copyright all right reserved</p>
-        </footer>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">MySQL</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-angular skills__icon"></i>
+                <span class="skills__name">ANGULAR JS</span>
+              </div>
+              <div class="skills__bar skills__ag"></div>
+              <div>
+                <span class="skills__percentage">30%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">NODE JS</span>
+              </div>
+              <div class="skills__bar skills__node"></div>
+              <div>
+                <span class="skills__percentage">50%</span>
+              </div>
+            </div>
+            <!-- <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-bootstrap skills__icon'></i>
+                                <span class="skills__name">BOOTSTRAP 4</span>
+                            </div>
+                            <div class="skills__bar skills__bt">
 
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div> -->
+          </div>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <!-- <br><br> -->
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/feature1.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Allen K Achankunju</h2>
+            <p class="about__text">
+              A web designer/developer focused on crafting great web
+              experiences. I enjoy creating beautifully designed, intuitive and
+              functional websites.
+            </p>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="assets/img/alen CV.pdf"
+              class="button"
+              >Download CV</a
+            >
+            <br /><br />
+            <h2 class="skills__subtitle">Educational Qualification</h2>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">B.Sc Computer Science</span>
+              </div>
+              <div class="skills__bar skills__cs"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">Plus Two</span>
+              </div>
+              <div class="skills__bar skills__pt"></div>
+              <div>
+                <span class="skills__percentage">73%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">10th</span>
+              </div>
+              <div class="skills__bar skills__cb"></div>
+              <div>
+                <span class="skills__percentage">84%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-left">
+              <h3 class="skills__subtitle">Message me</h3>
+              <!-- <div class="contact__container bd-grid"> -->
+              <form ac tion="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input" />
+                <input type="mail" placeholder="Email" class="contact__input" />
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="10"
+                  class="contact__input"
+                ></textarea>
+                <input
+                  type="button"
+                  value="Submit"
+                  class="contact__button button"
+                />
+              </form>
+              <!-- </div> -->
+            </div>
+            <div class="vl"></div>
+
+            <div class="contact-right">
+              <h3 class="skills__subtitle">Info</h3>
+              <table>
+                <tr class="skills__text">
+                  <td>
+                    <i class="large material-icons" style="color: #4070f4"
+                      >local_post_office</i
+                    >
+                  </td>
+                  <td>alenachankunju@gmail.com</td>
+                </tr>
+                <tr class="skills__text">
+                  <td>
+                    <i class="large material-icons" style="color: #4070f4"
+                      >local_phone</i
+                    >
+                  </td>
+                  <td>+91 9747685721</td>
+                </tr>
+                <tr class="skills__text">
+                  <td>
+                    <i class="large material-icons" style="color: #4070f4"
+                      >room</i
+                    >
+                  </td>
+                  <td>
+                    Kodiyattu House,<br />
+                    Malapperoor, Manjappara P.O,<br />
+                    Ayoor, Kollam, Kerala - 691533
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <iframe
+                class="skills__img"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7883.619741499243!2d76.85714357221367!3d8.89726147421867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05de5ab460173d%3A0xced42ea75085df4c!2sAyoor%2C%20Kerala%20691533!5e0!3m2!1sen!2sin!4v1615022879477!5m2!1sen!2sin"
+                width="350"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title"></p>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/alen.achankunju/" class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/alen_achankunju/"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <!-- <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
+      </div>
+      <p>
+        Created by <i style="color: red">𝒜𝓁𝓁𝑒𝓃 𝓀 𝒜𝒸𝒽𝒶𝓃𝓀𝓊𝓃𝒿𝓊</i> &#169; 2021
+        copyright all right reserved
+      </p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
